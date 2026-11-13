@@ -1,0 +1,30 @@
+{
+  "name": "playwrighttypescriptframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Regression": "npx playwright test",
+    "WebTests": "npx playwright test --grep @web",
+    "APITests": "npx playwright test --grep @API",
+    "SafariNewConfig": "npx playwright test --config playwright.config1.js --project=safari",
+    "CucumberRegression": "npx cucumber-js --tags '@Regression' --retry 1 --exit --format html:cucumber-report.html",
+    "CucumberAllureReport": "npx cucumber-js --exit"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.14.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "allure-cucumberjs": "^3.14.0",
+    "allure-js-commons": "^3.14.0",
+    "allure-playwright": "^3.14.0",
+    "exceljs": "^4.4.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0"
+  }
+}

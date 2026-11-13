@@ -1,0 +1,8 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2M1ZmNiMDU2OGMzZTlmYjFmOWIyZWUiLCJ1c2VyRW1haWwiOiJuYXZlZW5wYXRoYWs3MTVAZ21haWwuY29tIiwidXNlck1vYmlsZSI6OTk5OTk5OTk5OSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc5NDUzMjQ0NCwiZXhwIjoxODI2MDkwMDQ0fQ.nJwf_k4B9_HawvoRq5l9BmLLLsFnq5EdFo79D-4v0vM
+{
+  orders: [ '6af6645c92a4341c4c151f06' ],
+  productOrderId: [ '6960eac0c941646b7a8b3e68' ],
+  message: 'Order Placed Successfully'
+}
+6af6645c92a4341c4c151f06
+ADIDAS ORIGINAL

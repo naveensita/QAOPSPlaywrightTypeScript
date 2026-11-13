@@ -1,0 +1,5 @@
+Deleted existing file: E:\JobReady\PlaywrightTypescriptFramework\downloads\downloaded_file.xlsx
+Saved new file to: E:\JobReady\PlaywrightTypescriptFramework\downloads\downloaded_file.xlsx
+Searching in sheet: Sheet1
+Found "Apple" at Row: 3, Column: 2
+Updated cell at [3, 4] to "350" and saved to E:\JobReady\PlaywrightTypescriptFramework\downloads\downloaded_file.xlsx

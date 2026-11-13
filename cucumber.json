@@ -1,0 +1,15 @@
+{
+  "default": {
+    "retry": 1,
+    "retryTagFilter": "@Regression",
+    "format": [
+      "summary",
+      "progress-bar",
+      "html:cucumber-report.html",
+      "allure-cucumberjs/reporter:./dummy.txt"
+    ],
+    "formatOptions": {
+      "resultsDir": "allure-results-cucumber"
+    }
+  }
+}
