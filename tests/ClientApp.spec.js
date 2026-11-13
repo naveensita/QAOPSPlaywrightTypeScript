@@ -62,6 +62,7 @@ test("End To End Ecommerce Place Order Test", async ({page})=>{
     await dropdown.waitFor();
     const optionsCount = await dropdown.locator("button").count();
     
+    //Click Add to cart
     for(let i=0; i<optionsCount; i++){
         const text = (await dropdown.locator("button").nth(i).innerText()).trim();
         if ( text === "India") {
