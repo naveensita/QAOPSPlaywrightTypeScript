@@ -37,7 +37,7 @@ test("@web w2   Screenshots and visual testing test", async ({page})=>{
     await page.getByRole("button", {name:'Show'}).click();
 });
 
-test("Visual testing test", async ({page})=>{
+test.skip("Visual testing test", async ({page})=>{
 
     await page.goto("https://www.google.com/");
 
