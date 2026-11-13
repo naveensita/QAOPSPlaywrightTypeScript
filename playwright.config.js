@@ -5,7 +5,7 @@ import { trace } from 'node:console';
 const config = ({
   testDir: './tests',
   retries:1,
-  workers: 6,
+  workers: 1,
   timeout: 30 * 1000,
   expect:{
     timeout: 5 * 1000
@@ -24,7 +24,7 @@ const config = ({
     /*browserName: 'firefox'*/
     browserName: 'chromium',
     /*channel: 'msedge',*/
-    headless:false,
+    headless:true,
     /*...devices['Desktop Edge'],*/
     /*trace:'retain-on-failure',*/
     trace: 'on',
